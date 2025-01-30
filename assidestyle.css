@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+  text-align: justify;  
+}
+.central{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    display: flex;
+    gap: 2vw;
+}
+main{
+    flex: 1;
+    background: #f5f5f5;
+    padding: 1%;
+    gap: 2vw;
+}
+.flex{
+    display: flex;
+    gap: 2vw;
+}
+
+aside{
+    width: 25%;
+    background: #e0e0e0;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
