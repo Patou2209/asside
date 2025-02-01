@@ -33,3 +33,17 @@ aside{
     background-color: black;
     color: white;
 }
+/* grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1vw;
+    border: 1px solid red;
+}
+.card{
+    background: #f5f5f5;
+    padding: 1%;
+    border: 1px solid #e0e0e0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
